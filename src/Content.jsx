@@ -16,7 +16,7 @@ import Closingtag from "../public/closingtag.png";
 import Graphics from "../public/graphicsdesign.png";
 import Paperplane from "../public/paper-plane.png";
 import Telephone from "../public/telephone.png";
-import Uparrow from "../public/up-arrow.png";
+// import Cv from "../public/enevelope";
 
 export default function Content() {
   const [isVisible, setIsVisible] = useState(false);
@@ -106,11 +106,7 @@ export default function Content() {
             <br /> QR codes in React applications. <br /> I am committed to
             continuously enhancing my web development capabilities.
           </p>
-          <a
-            href="/src/assets/enevelope print 2025.pdf"
-            download
-            data-aos="flip-up"
-          >
+          <a href="#" download data-aos="flip-up">
             <button className="resume">Download Resume</button>
           </a>
         </div>
