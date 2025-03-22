@@ -38,21 +38,21 @@ export default function Content() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="./src/assets/linkedin.png" alt="linkedin" />
+                <img src="/src/assets/linkedin.png" alt="linkedin" />
               </a>
               <a
                 href="https://x.com/printsaf?s=21&t=xGu2DFvipzmXaZlfGavEOQ"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="./src/assets/twitter.png" alt="twitter" />
+                <img src="/src/assets/twitter.png" alt="twitter" />
               </a>
               <a
                 href="https://github.com/fuad1706"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="./src/assets/github.png" alt="github" />
+                <img src="/src/assets/github.png" alt="github" />
               </a>
             </div>
             <div className="bookme">
@@ -62,7 +62,7 @@ export default function Content() {
             </div>
           </div>
           <img
-            src="./src/assets/alesh.jpg"
+            src="/src/assets/alesh.jpg"
             alt="alesh"
             className="alesh"
             data-aos="zoom-in"
@@ -96,7 +96,7 @@ export default function Content() {
             continuously enhancing my web development capabilities.
           </p>
           <a
-            href="./src/assets/enevelope print 2025.pdf"
+            href="/src/assets/enevelope print 2025.pdf"
             download
             data-aos="flip-up"
           >
