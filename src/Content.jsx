@@ -5,6 +5,18 @@ import Github from "../public/github.png";
 import Twitter from "../public/twitter.png";
 import Linkedin from "../public/linkedin.png";
 import Alesh from "../public/alesh.jpg";
+import Download from "../public/download.svg";
+import Download1 from "../public/download-1.svg";
+import Download2 from "../public/download-2.svg";
+import Download3 from "../public/download-3.svg";
+import Download4 from "../public/download-4.svg";
+import Download5 from "../public/download-5.svg";
+import Ps from "../public/adobe.png";
+import Closingtag from "../public/closingtag.png";
+import Graphics from "../public/graphicsdesign.png";
+import Paperplane from "../public/paper-plane.png";
+import Telephone from "../public/telephone.png";
+import Uparrow from "../public/up-arrow.png";
 
 export default function Content() {
   const [isVisible, setIsVisible] = useState(false);
@@ -110,7 +122,7 @@ export default function Content() {
         </h2>
         <div className="content3" data-aos="zoom-in">
           <div className="content3a">
-            <img src="/src/assets/closingtag.png" alt="closingtag" />
+            <img src={Closingtag} alt="closingtag" />
             <h3>Frontend Developer</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio,
@@ -121,7 +133,7 @@ export default function Content() {
             <button className="contact-Me">Contact Me</button>
           </div>
           <div className="content3b">
-            <img src="/src/assets/graphicsdesign.png" alt="graphicsdesign" />
+            <img src={Graphics} alt="graphicsdesign" />
             <h3>Graphics Designer</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio,
@@ -138,13 +150,13 @@ export default function Content() {
           My <span>Skills</span>
         </h3>
         <div className="content4" data-aos="fade-right">
-          <img src="/src/assets/download.svg" alt="download" />
-          <img src="/src/assets/download-1.svg" alt="download" />
-          <img src="/src/assets/download-2.svg" alt="download" />
-          <img src="/src/assets/download-3.svg" alt="download" />
-          <img src="/src/assets/download-4.svg" alt="download" />
-          <img src="/src/assets/download-5.svg" alt="download" />
-          <img className="ps" src="/src/assets/adobe.png" alt="download" />
+          <img src={Download} alt="download" />
+          <img src={Download1} alt="download" />
+          <img src={Download2} alt="download" />
+          <img src={Download3} alt="download" />
+          <img src={Download4} alt="download" />
+          <img src={Download5} alt="download" />
+          <img className="ps" src={Ps} alt="download" />
         </div>
       </div>
 
@@ -178,11 +190,11 @@ export default function Content() {
             experiences.
           </p>
           <p>
-            <img src="/src/assets/paper-plane.png" alt="paperplane" />
+            <img src={Paperplane} alt="paperplane" />
             fuadadebakin@gmail.com
           </p>
           <p>
-            <img src="/src/assets/telephone.png" alt="telephone" />
+            <img src={Telephone} alt="telephone" />
             +2347085977737
           </p>
           <a
@@ -190,33 +202,21 @@ export default function Content() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src="./src/assets/linkedin.png"
-              alt="linkedin"
-              className="linkedin"
-            />
+            <img src={Linkedin} alt="linkedin" className="linkedin" />
           </a>
           <a
             href="https://x.com/printsaf?s=21&t=xGu2DFvipzmXaZlfGavEOQ"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src="./src/assets/twitter.png"
-              alt="twitter"
-              className="twitter"
-            />
+            <img src={Twitter} alt="twitter" className="twitter" />
           </a>
           <a
             href="https://github.com/fuad1706"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              src="./src/assets/github.png"
-              alt="github"
-              className="github"
-            />
+            <img src={Github} alt="github" className="github" />
           </a>
         </div>
         <div className="contact-meb">
