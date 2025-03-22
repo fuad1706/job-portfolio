@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Github from "../public/github.png";
+import Twitter from "../public/twitter.png";
+import Linkedin from "../public/linkedin.png";
+import Alesh from "../public/alesh.jpg";
 
 export default function Content() {
   const [isVisible, setIsVisible] = useState(false);
@@ -38,21 +42,21 @@ export default function Content() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/src/assets/linkedin.png" alt="linkedin" />
+                <img src={Linkedin} alt="linkedin" />
               </a>
               <a
                 href="https://x.com/printsaf?s=21&t=xGu2DFvipzmXaZlfGavEOQ"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/src/assets/twitter.png" alt="twitter" />
+                <img src={Twitter} alt="twitter" />
               </a>
               <a
                 href="https://github.com/fuad1706"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src="/src/assets/github.png" alt="github" />
+                <img src={Github} alt="github" />
               </a>
             </div>
             <div className="bookme">
@@ -61,12 +65,7 @@ export default function Content() {
               </a>
             </div>
           </div>
-          <img
-            src="/src/assets/alesh.jpg"
-            alt="alesh"
-            className="alesh"
-            data-aos="zoom-in"
-          />
+          <img src={Alesh} alt="alesh" className="alesh" data-aos="zoom-in" />
         </div>
       </div>
 
@@ -87,11 +86,11 @@ export default function Content() {
           <p>
             I'm a 2-year-old sel-taught Frontend Developer focused on advancing
             in the tech field, <br /> with a strong interest in improving my
-            skills. Currently, I'm on a FullStack self learning journey, <br />{" "}
-            working on various projects, including a Quiz App, chef-claude app
-            using ReactJS and Vanilla CSS. <br /> My learning path includes
-            mastering ReactJS, building responsive designs, and handling assets
-            like
+            skills. Currently, I'm on a FullStack self learning journey,
+            <br /> working on various projects, including a Quiz App,
+            chef-claude app using ReactJS and Vanilla CSS. <br /> My learning
+            path includes mastering ReactJS, building responsive designs, and
+            handling assets like
             <br /> QR codes in React applications. <br /> I am committed to
             continuously enhancing my web development capabilities.
           </p>
@@ -140,11 +139,11 @@ export default function Content() {
         </h3>
         <div className="content4" data-aos="fade-right">
           <img src="/src/assets/download.svg" alt="download" />
-          <img src="/src/assets/download (1).svg" alt="download" />
-          <img src="/src/assets/download (2).svg" alt="download" />
-          <img src="/src/assets/download (3).svg" alt="download" />
-          <img src="/src/assets/download (4).svg" alt="download" />
-          <img src="/src/assets/download (5).svg" alt="download" />
+          <img src="/src/assets/download-1.svg" alt="download" />
+          <img src="/src/assets/download-2.svg" alt="download" />
+          <img src="/src/assets/download-3.svg" alt="download" />
+          <img src="/src/assets/download-4.svg" alt="download" />
+          <img src="/src/assets/download-5.svg" alt="download" />
           <img className="ps" src="/src/assets/adobe.png" alt="download" />
         </div>
       </div>
