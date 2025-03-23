@@ -557,3 +557,41 @@ footer {
     margin-bottom: 40px;
   }
 }
+@media (max-width: 425px) {
+  .alesh {
+    margin-bottom: 30px;
+  }
+  .content {
+    margin: 0;
+  }
+  .content p {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .content p br {
+    display: none;
+  }
+  .content3a,
+  .content3b {
+    width: 350px;
+    height: 290px;
+  }
+  .content3a img,
+  .content3b img {
+    width: 25px;
+  }
+  .content4 img {
+    width: 80px;
+    margin: 0 auto;
+  }
+  .job-box-1,
+  .job-box-2,
+  .job-box-3,
+  .job-box-4,
+  .job-box-5,
+  .job-box-6 {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 50px auto;
+  }
+}
