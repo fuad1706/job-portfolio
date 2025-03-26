@@ -409,6 +409,7 @@ footer {
   .main-content-2 p {
     font-size: 25px;
   }
+
   .contact-mea p br {
     display: none;
   }
@@ -474,6 +475,35 @@ footer {
   .main-content-4 h3 {
     font-size: 50px;
   }
+  .job-box-1,
+  .job-box-2,
+  .job-box-3,
+  .job-box-4,
+  .job-box-5,
+  .job-box-6 {
+    width: 400px;
+    height: 300px;
+  }
+  .job-box-1 img,
+  .job-box-2 img,
+  .job-box-4 img,
+  .job-box-5 img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: fill;
+  }
+  .job-box-1 .link,
+  .job-box-2 .link,
+  .job-box-4 .link,
+  .job-box-5 .link {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 25px;
+    left: 190px;
+  }
+
   .content4 img {
     margin-left: 40px;
   }
@@ -503,8 +533,9 @@ footer {
     text-align: center;
   }
   .alesh {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
+    margin-bottom: 50px;
   }
   .main-content-2 {
     text-align: center;
@@ -580,6 +611,25 @@ footer {
     height: 350px;
     margin-bottom: 50px;
   }
+  .job-box-1 img,
+  .job-box-2 img,
+  .job-box-4 img,
+  .job-box-5 img {
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    object-fit: fill;
+  }
+  .job-box-1 .link,
+  .job-box-2 .link,
+  .job-box-4 .link,
+  .job-box-5 .link {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 25px;
+    left: 240px;
+  }
   .contact-me {
     flex-direction: column;
     margin: 0 auto;
@@ -628,9 +678,28 @@ footer {
   .job-box-4,
   .job-box-5,
   .job-box-6 {
-    width: 300px;
+    width: 350px;
     height: 300px;
     margin: 0 auto 50px auto;
+  }
+  .job-box-1 img,
+  .job-box-2 img,
+  .job-box-4 img,
+  .job-box-5 img {
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: fill;
+  }
+  .job-box-1 .link,
+  .job-box-2 .link,
+  .job-box-4 .link,
+  .job-box-5 .link {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 25px;
+    left: 170px;
   }
   .main-content-2 p {
     width: 90%;
