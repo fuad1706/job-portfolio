@@ -710,4 +710,51 @@ footer {
     width: 250px;
     height: 250px;
   }
+  .content3a,
+  .content3b {
+    width: 300px;
+    height: 280px;
+  }
+  .content3a img,
+  .content3b img {
+    width: 20px;
+  }
+  .content3a h3,
+  .content3b h3 {
+    font-size: 20px;
+    margin: 10px;
+  }
+  .content3a p,
+  .content3b p {
+    font-size: 11px;
+  }
+  .job-box-1,
+  .job-box-2,
+  .job-box-3,
+  .job-box-4,
+  .job-box-5,
+  .job-box-6 {
+    width: 300px;
+    height: 250px;
+    margin: 0 auto 50px auto;
+  }
+  .job-box-1 img,
+  .job-box-2 img,
+  .job-box-4 img,
+  .job-box-5 img {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: fill;
+  }
+  .job-box-1 .link,
+  .job-box-2 .link,
+  .job-box-4 .link,
+  .job-box-5 .link {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 25px;
+    left: 135px;
+  }
 }
