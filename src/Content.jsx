@@ -128,10 +128,11 @@ export default function Content() {
             <img src={Closingtag} alt="closingtag" />
             <h3>Frontend Developer</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio,
-              veniam? Repellat soluta cum porro aliquid ipsam, id ex, nihil
-              doloremque adipisci enim assumenda doloribus, quaerat asperiores
-              inventore laborum commodi eaque!
+              I create and optimize the user interface of websites and web
+              applications using HTML, CSS, and JavaScript, often leveraging
+              frameworks like React. I ensure responsiveness, accessibility, and
+              smooth navigation while also integrating APIs and optimizing
+              performance for a seamless user experience.
             </p>
             <button className="contact-Me">Contact Me</button>
           </div>
@@ -139,10 +140,11 @@ export default function Content() {
             <img src={Graphics} alt="graphicsdesign" />
             <h3>Graphics Designer</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio,
-              veniam? Repellat soluta cum porro aliquid ipsam, id ex, nihil
-              doloremque adipisci enim assumenda doloribus, quaerat asperiores
-              inventore laborum commodi eaque!
+              I provides visual solutions for branding, marketing, and digital
+              presence. This includes logo design, business cards, brochures,
+              posters, and social media graphics to establish a strong identity.
+              I also create website layouts, UI designs, and infographics to
+              enhance user experience and communication.
             </p>
             <button className="contact-Me">Contact Me</button>
           </div>

@@ -659,7 +659,7 @@ footer {
   .content4 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 10px;
     margin: auto;
   }
   .job-box-1,
@@ -671,7 +671,7 @@ footer {
     width: 400px;
     height: 330px;
     margin-bottom: 50px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
   .job-box-1 img,
   .job-box-2 img,
