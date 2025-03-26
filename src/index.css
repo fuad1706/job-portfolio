@@ -591,13 +591,16 @@ footer {
   .main-content-5 {
     min-height: auto;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
     flex-direction: column;
-    /* overflow: hidden; */
-    margin-bottom: 200px; /* Reduce for smaller screens */
+
+    margin-bottom: 200px;
   }
 
   .job-boxa,
   .job-boxb {
+    width: 500px;
     flex-direction: column;
     margin: 0;
   }
@@ -610,6 +613,7 @@ footer {
     width: 500px;
     height: 350px;
     margin-bottom: 50px;
+    margin-left: 10px;
   }
   .job-box-1 img,
   .job-box-2 img,
@@ -643,6 +647,50 @@ footer {
   }
   .contact-mea {
     margin-bottom: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .content3a,
+  .content3b {
+    width: 400px;
+    height: 350px;
+    margin-bottom: 30px;
+  }
+  .content4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin: auto;
+  }
+  .job-box-1,
+  .job-box-2,
+  .job-box-3,
+  .job-box-4,
+  .job-box-5,
+  .job-box-6 {
+    width: 400px;
+    height: 330px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+  }
+  .job-box-1 img,
+  .job-box-2 img,
+  .job-box-4 img,
+  .job-box-5 img {
+    width: 400px;
+    height: 330px;
+    border-radius: 20px;
+    object-fit: fill;
+  }
+  .job-box-1 .link,
+  .job-box-2 .link,
+  .job-box-4 .link,
+  .job-box-5 .link {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 25px;
+    left: 170px;
   }
 }
 @media (max-width: 425px) {
