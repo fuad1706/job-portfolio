@@ -22,6 +22,7 @@ import Whatsapp from "../public/whatsapp.png";
 import Link from "../public/link.png";
 import Sunnyside from "../public/sunnyside.png";
 import Blogr from "../public/blogr.png";
+import Adebakin from "../public/adebakin.pdf";
 // import Cv from "../public/enevelope";
 
 export default function Content() {
@@ -112,7 +113,7 @@ export default function Content() {
             <br /> QR codes in React applications. <br /> I am committed to
             continuously enhancing my web development capabilities.
           </p>
-          <a href="#" download data-aos="flip-up">
+          <a href={Adebakin} download data-aos="flip-up">
             <button className="resume">Download Resume</button>
           </a>
         </div>
