@@ -16,6 +16,12 @@ import Closingtag from "../public/closingtag.png";
 import Graphics from "../public/graphicsdesign.png";
 import Paperplane from "../public/paper-plane.png";
 import Telephone from "../public/telephone.png";
+import Loopstudio from "../public/loopstudio.jpg";
+import Eazybank from "../public/eazybank.jpg";
+import Whatsapp from "../public/whatsapp.png";
+import Link from "../public/link.png";
+import Sunnyside from "../public/sunnyside.png";
+import Blogr from "../public/blogr.png";
 // import Cv from "../public/enevelope";
 
 export default function Content() {
@@ -96,7 +102,7 @@ export default function Content() {
           </h2>
           <h5>Get to Know Me</h5>
           <p>
-            I'm a 2-year-old sel-taught Frontend Developer focused on advancing
+            I'm a 2-year-old self-taught Frontend Developer focused on advancing
             in the tech field, <br /> with a strong interest in improving my
             skills. Currently, I'm on a FullStack self learning journey,
             <br /> working on various projects, including a Quiz App,
@@ -161,14 +167,50 @@ export default function Content() {
           My <span>Jobs</span>
         </h3>
         <div className="job-boxa" data-aos="fade-right">
-          <div className="job-box-1"></div>
-          <div className="job-box-2"></div>
-          <div className="job-box-3"></div>
+          <div className="job-box-1">
+            <img src={Loopstudio} alt="loopstudio" />
+            <a
+              href="https://loop-studio-gray.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Link} alt="Link" className="link" />
+            </a>
+          </div>
+          <div className="job-box-2">
+            <img src={Eazybank} alt="eazybank" />
+            <a
+              href="https://eazy-bank-opal.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Link} alt="Link" className="link" />
+            </a>
+          </div>
+          {/* <div className="job-box-3"></div> */}
         </div>
         <div className="job-boxb" data-aos="fade-right">
-          <div className="job-box-4"></div>
-          <div className="job-box-5"></div>
-          <div className="job-box-6"></div>
+          <div className="job-box-4">
+            <img src={Sunnyside} alt="sunnyside" />
+            <a
+              href="https://sunny-side-tau.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Link} alt="Link" className="link" />
+            </a>
+          </div>
+          <div className="job-box-5">
+            <img src={Blogr} alt="blogr" />
+            <a
+              href="https://blogr-black.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={Link} alt="Link" className="link" />
+            </a>
+          </div>
+          {/* <div className="job-box-6"></div> */}
         </div>
       </div>
 
@@ -230,6 +272,15 @@ export default function Content() {
       >
         ↑
       </button>
+      <div className="whatsapp">
+        <a
+          href="https://wa.me/2347085977737?text=Hello%20AF,%20I%20am%20interested%20in%20your%20services"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={Whatsapp} alt="whatsapp" />
+        </a>
+      </div>
       <footer>
         <div className="footer-content">
           <h5>Developed with ❤️ by Adebakin Fuad © 2025</h5>

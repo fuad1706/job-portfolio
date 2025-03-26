@@ -204,7 +204,8 @@ h1 > span {
   width: 100%;
   height: 400px;
   text-align: center;
-  margin-bottom: 300px;
+  margin-bottom: 400px;
+  margin-top: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -240,12 +241,33 @@ h1 > span {
 .job-box-4,
 .job-box-5,
 .job-box-6 {
-  width: 300px;
-  height: 250px;
-  margin-left: 20px;
+  width: 500px;
+  height: 350px;
+  margin-left: 50px;
   background-color: white;
   border-radius: 20px;
   transition: background 0.3s ease, transform 0.2s ease;
+  position: relative;
+}
+.job-box-1 img,
+.job-box-2 img,
+.job-box-4 img,
+.job-box-5 img {
+  width: 500px;
+  height: 350px;
+  border-radius: 20px;
+  object-fit: fill;
+}
+
+.job-box-1 .link,
+.job-box-2 .link,
+.job-box-4 .link,
+.job-box-5 .link {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: 25px;
+  left: 220px;
 }
 .job-box-1:hover,
 .job-box-2:hover,
@@ -355,6 +377,21 @@ textarea {
 
 .scroll-to-top:hover {
   background-color: #d43a47;
+  transform: scale(1.1);
+}
+.whatsapp img {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s, transform 0.3s;
+}
+.whatsapp img:hover {
   transform: scale(1.1);
 }
 footer {
@@ -477,7 +514,7 @@ footer {
     border: 1px solid #d9d9d9;
   }
   .main-content-2 p {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     font-size: 17px;
   }
@@ -545,6 +582,7 @@ footer {
   }
   .contact-me {
     flex-direction: column;
+    margin: 0 auto;
   }
   .contact-mea,
   .contact-meb {
@@ -593,5 +631,14 @@ footer {
     width: 300px;
     height: 300px;
     margin: 0 auto 50px auto;
+  }
+  .main-content-2 p {
+    width: 90%;
+  }
+}
+@media (max-width: 320px) {
+  .alesh {
+    width: 250px;
+    height: 250px;
   }
 }
