@@ -449,7 +449,7 @@ footer {
   .content3a,
   .content3b {
     width: 400px;
-    height: 280px;
+    height: 300px;
   }
 
   .content3a img,
@@ -719,6 +719,10 @@ footer {
   .content3a img,
   .content3b img {
     width: 25px;
+  }
+  .content3a p,
+  .content3b p {
+    font-size: 11px;
   }
   .content4 img {
     width: 80px;
