@@ -101,9 +101,19 @@ h2 span {
   .nav-menu ul {
     flex-direction: column;
     text-align: center;
+    margin-top: 40px;
   }
 
   .nav-menu ul li {
-    margin: 40px 0;
+    margin: 20px 0;
+  }
+}
+@media (max-width: 375px) {
+  .nav-menu ul {
+    margin-top: 0;
+  }
+
+  .nav-menu ul li {
+    margin: 12px 0;
   }
 }

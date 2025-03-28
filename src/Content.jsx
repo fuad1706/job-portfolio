@@ -134,7 +134,9 @@ export default function Content() {
               smooth navigation while also integrating APIs and optimizing
               performance for a seamless user experience.
             </p>
-            <button className="contact-Me">Contact Me</button>
+            <button className="contact-Me" id="#contact-me">
+              Contact Me
+            </button>
           </div>
           <div className="content3b">
             <img src={Graphics} alt="graphicsdesign" />
@@ -146,7 +148,9 @@ export default function Content() {
               I also create website layouts, UI designs, and infographics to
               enhance user experience and communication.
             </p>
-            <button className="contact-Me">Contact Me</button>
+            <button className="contact-Me" id="#contact-me">
+              Contact Me
+            </button>
           </div>
         </div>
       </div>
