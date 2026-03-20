@@ -1,28 +1,28 @@
 import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Github from "../public/github.png";
-import Twitter from "../public/twitter.png";
-import Linkedin from "../public/linkedin.png";
-import Alesh from "../public/alesh.jpg";
-import Download from "../public/download.svg";
-import Download1 from "../public/download-1.svg";
-import Download2 from "../public/download-2.svg";
-import Download3 from "../public/download-3.svg";
-import Download4 from "../public/download-4.svg";
-import Download5 from "../public/download-5.svg";
-import Ps from "../public/adobe.png";
-import Closingtag from "../public/closingtag.png";
-import Graphics from "../public/graphicsdesign.png";
-import Paperplane from "../public/paper-plane.png";
-import Telephone from "../public/telephone.png";
-import Loopstudio from "../public/loopstudio.jpg";
-import Eazybank from "../public/eazybank.jpg";
-import Whatsapp from "../public/whatsapp.png";
-import Link from "../public/link.png";
-import Sunnyside from "../public/sunnyside.png";
-import Blogr from "../public/blogr.png";
-import Adebakin from "../public/adebakin.pdf";
+import Github from "/github.png";
+import Twitter from "/twitter.png";
+import Linkedin from "/linkedin.png";
+import Alesh from "/alesh.jpg";
+import Download from "/download.svg";
+import Download1 from "/download-1.svg";
+import Download2 from "/download-2.svg";
+import Download3 from "/download-3.svg";
+import Download4 from "/download-4.svg";
+import Download5 from "/download-5.svg";
+import Ps from "/adobe.png";
+import Closingtag from "/closingtag.png";
+import Graphics from "/graphicsdesign.png";
+import Paperplane from "/paper-plane.png";
+import Telephone from "/telephone.png";
+import Loopstudio from "/loopstudio.jpg";
+import Eazybank from "/eazybank.jpg";
+import Whatsapp from "/whatsapp.png";
+import Link from "/link.png";
+import Sunnyside from "/sunnyside.png";
+import Blogr from "/blogr.png";
+import Adebakin from "/adebakin.pdf";
 // import Cv from "../public/enevelope";
 
 export default function Content() {
@@ -290,7 +290,9 @@ export default function Content() {
       </div>
       <footer>
         <div className="footer-content">
-          <h5>Developed with ❤️ by Adebakin Fuad © 2025</h5>
+          <h5>
+            Developed with ❤️ by Adebakin Fuad © {new Date().getFullYear()}
+          </h5>
         </div>
       </footer>
     </main>
