@@ -18,35 +18,35 @@ export default function header() {
       </div>
 
       {/* Navigation Menu */}
-      <nav className={isOpen ? "nav-menu open" : "nav-menu"}>
+      <nav className={isOpen ? "nav-menu open" : "nav-menu hidden"}>
         <ul>
           <li>
-            <a href="#my-home" onClick={() => setIsOpen(false)}>
+            <a href="#my-home" onClick={() => setIsOpen(true)}>
               Home
             </a>
           </li>
           <li>
-            <a href="#about-me" onClick={() => setIsOpen(false)}>
+            <a href="#about-me" onClick={() => setIsOpen(true)}>
               About
             </a>
           </li>
           <li>
-            <a href="#my-service" onClick={() => setIsOpen(false)}>
+            <a href="#my-service" onClick={() => setIsOpen(true)}>
               Services
             </a>
           </li>
           <li>
-            <a href="#my-skills" onClick={() => setIsOpen(false)}>
+            <a href="#my-skills" onClick={() => setIsOpen(true)}>
               Skills
             </a>
           </li>
           <li>
-            <a href="#my-jobs" onClick={() => setIsOpen(false)}>
+            <a href="#my-jobs" onClick={() => setIsOpen(true)}>
               Jobs
             </a>
           </li>
           <li>
-            <a href="#contact-me" onClick={() => setIsOpen(false)}>
+            <a href="#contact-me" onClick={() => setIsOpen(true)}>
               Contact
             </a>
           </li>

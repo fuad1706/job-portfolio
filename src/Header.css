@@ -86,7 +86,7 @@ h2 span {
     left: 0px;
     width: 100%;
     background: #222;
-    height: 100vh;
+    height: 0;
     overflow: hidden;
     transition: height 0.3s ease-in-out;
     flex-direction: column;
@@ -95,7 +95,7 @@ h2 span {
   }
 
   .nav-menu.open {
-    height: 10px;
+    height: 100vh;
   }
 
   .nav-menu ul {

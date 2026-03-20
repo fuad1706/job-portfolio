@@ -708,6 +708,9 @@ footer {
     width: 90%;
     margin: 0 auto;
   }
+  .main-content-4 {
+    margin: 0;
+  }
   .content p br {
     display: none;
   }
@@ -728,6 +731,7 @@ footer {
     width: 80px;
     margin: 0 auto;
   }
+
   .job-box-1,
   .job-box-2,
   .job-box-3,
