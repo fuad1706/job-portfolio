@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Github from "/github.png";
@@ -26,6 +27,7 @@ import Adebakin from "/adebakin.pdf";
 // import Cv from "../public/enevelope";
 
 export default function Content() {
+  const navigate = useNavigate();
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -50,10 +52,10 @@ export default function Content() {
               Hello, I'm <span>Fuad</span> <br /> a Front end Developer
             </h1>
             <p>
-              I'm a frontend developer skilled in HTML, CSS, JavaScript,
-              ReactJS, with <br /> a goal of solving complex societal problems
-              Using 1's and 0's. I'm also <br /> interested in becoming a
-              Fullstack, alongside my frontend development skills.
+              I'm a frontend developer skilled in HTML, CSS, JavaScript, ReactJS
+              and TypeScript with <br /> a goal of solving complex societal
+              problems Using 1's and 0's. I'm also <br /> interested in becoming
+              a Fullstack, alongside my frontend development skills.
             </p>
             <div className="socials">
               <a
@@ -134,8 +136,12 @@ export default function Content() {
               smooth navigation while also integrating APIs and optimizing
               performance for a seamless user experience.
             </p>
-            <button className="contact-Me" id="#contact-me">
-              Contact Me
+            <button
+              onClick={() => navigate("/Web")}
+              className="contact-Me"
+              id="#contact-me"
+            >
+              WEB JOBS
             </button>
           </div>
           <div className="content3b">
@@ -288,13 +294,6 @@ export default function Content() {
           <img src={Whatsapp} alt="whatsapp" />
         </a>
       </div>
-      <footer>
-        <div className="footer-content">
-          <h5>
-            Developed with ❤️ by Adebakin Fuad © {new Date().getFullYear()}
-          </h5>
-        </div>
-      </footer>
     </main>
   );
 }
