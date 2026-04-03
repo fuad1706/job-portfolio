@@ -17,14 +17,15 @@ import Closingtag from "/closingtag.png";
 import Graphics from "/graphicsdesign.png";
 import Paperplane from "/paper-plane.png";
 import Telephone from "/telephone.png";
-import Loopstudio from "/loopstudio.jpg";
-import Eazybank from "/eazybank.jpg";
 import Whatsapp from "/whatsapp.png";
 import Link from "/link.png";
 import Sunnyside from "/sunnyside.png";
 import Blogr from "/blogr.png";
 import Adebakin from "/adebakin.pdf";
 import Adminnake from "/adminNake.png";
+import Nakestudio from "/nakestudios.png";
+import Neighbor from "/neigbor.png";
+
 // import Cv from "../public/enevelope";
 
 export default function Content() {
@@ -193,9 +194,9 @@ export default function Content() {
             </a>
           </div>
           <div className="job-box-2">
-            <img src={Eazybank} alt="eazybank" />
+            <img src={Nakestudio} alt="nakesttudios" />
             <a
-              href="https://eazy-bank-opal.vercel.app/"
+              href="https://www.nakestudios.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -206,9 +207,9 @@ export default function Content() {
         </div>
         <div className="job-boxb" data-aos="fade-right">
           <div className="job-box-4">
-            <img src={Sunnyside} alt="sunnyside" />
+            <img src={Neighbor} alt="neighbor" />
             <a
-              href="https://sunny-side-tau.vercel.app/"
+              href="https://neighboorhire.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
