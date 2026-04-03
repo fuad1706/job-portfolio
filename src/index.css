@@ -46,7 +46,9 @@ h1 > span {
   display: inline-block;
   margin: 45px auto 50px auto;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-  transition: background 0.3s ease, transform 0.2s ease;
+  transition:
+    background 0.3s ease,
+    transform 0.2s ease;
 }
 .book:hover {
   background-color: #d43a47;
@@ -87,7 +89,7 @@ h1 > span {
 }
 .main-content-2 p {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
 }
 .resume {
   color: #fff;
@@ -101,7 +103,9 @@ h1 > span {
   display: inline-block;
   margin: 45px auto 50px auto;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-  transition: background 0.3s ease, transform 0.2s ease;
+  transition:
+    background 0.3s ease,
+    transform 0.2s ease;
 }
 .resume:hover {
   background-color: #d43a47;
@@ -163,7 +167,9 @@ h1 > span {
   border-color: transparent;
   display: inline-block;
   margin: 35px auto 50px auto;
-  transition: background 0.3s ease, transform 0.2s ease;
+  transition:
+    background 0.3s ease,
+    transform 0.2s ease;
 }
 .contact-Me:hover {
   background-color: #d43a47;
@@ -246,7 +252,9 @@ h1 > span {
   margin-left: 50px;
   background-color: white;
   border-radius: 20px;
-  transition: background 0.3s ease, transform 0.2s ease;
+  transition:
+    background 0.3s ease,
+    transform 0.2s ease;
   position: relative;
 }
 .job-box-1 img,
@@ -372,7 +380,9 @@ textarea {
   justify-content: center;
   align-items: center;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
-  transition: opacity 0.3s, transform 0.3s;
+  transition:
+    opacity 0.3s,
+    transform 0.3s;
 }
 
 .scroll-to-top:hover {
@@ -389,7 +399,9 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: opacity 0.3s, transform 0.3s;
+  transition:
+    opacity 0.3s,
+    transform 0.3s;
 }
 .whatsapp img:hover {
   transform: scale(1.1);
