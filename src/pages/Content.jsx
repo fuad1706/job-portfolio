@@ -105,9 +105,10 @@ export default function Content() {
           </h2>
           <h5>Get to Know Me</h5>
           <p>
-            I'm a 2-year-old self-taught Frontend Developer focused on advancing
-            in the tech field, <br /> with a strong interest in improving my
-            skills. Currently, I'm on a FullStack self learning journey,
+            I'm a 3-years-old self-taught Frontend Developer focused on
+            advancing in the tech field, <br /> with a strong interest in
+            improving my skills. Currently, I'm on a FullStack self learning
+            journey,
             <br /> working on various projects, including a Quiz App,
             chef-claude app using ReactJS and Vanilla CSS. <br /> My learning
             path includes mastering ReactJS, building responsive designs, and
