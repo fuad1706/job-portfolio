@@ -24,6 +24,7 @@ import Link from "/link.png";
 import Sunnyside from "/sunnyside.png";
 import Blogr from "/blogr.png";
 import Adebakin from "/adebakin.pdf";
+import Adminnake from "/adminNake.png";
 // import Cv from "../public/enevelope";
 
 export default function Content() {
@@ -182,9 +183,9 @@ export default function Content() {
         </h3>
         <div className="job-boxa" data-aos="fade-right">
           <div className="job-box-1">
-            <img src={Loopstudio} alt="loopstudio" />
+            <img src={Adminnake} alt="nakeAdmin" />
             <a
-              href="https://loop-studio-gray.vercel.app/"
+              href="https://admin.nakestudios.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
