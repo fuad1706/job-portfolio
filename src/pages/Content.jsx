@@ -140,7 +140,7 @@ export default function Content() {
               performance for a seamless user experience.
             </p>
             <button
-              onClick={() => navigate("/Web")}
+              // onClick={() => navigate("/Web")}
               className="contact-Me"
               id="#contact-me"
             >
